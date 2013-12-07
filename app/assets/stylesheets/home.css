@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#intro {
+  display: table;
+  background: url(sunset_seattle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#about{
+  background: #ffffff;
+  padding: 50px 0;
+}
+
+#resume {
+  background-color: #000000;
+}
+
+#kindwords {
+  background-color: #444444;
+}
+
+#portfolio {
+  background-color: #ffffff;
+}
+
+#contact {
+  background-color: #000000;
+}
+
+.divider {
+  height: 1px;
+  margin: 9.5px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+i {
+  font-size: 50px;
+  color: #0070FF;
+}
+
