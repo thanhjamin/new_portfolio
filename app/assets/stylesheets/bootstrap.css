@@ -4307,6 +4307,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  vertical-align: middle;
+  font-size: 20px;
 }
 
 .nav > li > a:hover,
@@ -4640,7 +4642,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: none;
   }
 }
 
@@ -4784,10 +4786,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   top: 0;
-  padding: 30px 15px;
-  font-size: 24px;
-  line-height: 21px;
-  text-align: center;
+  padding: 30px 0px;
+  font-size: 65px;
+  line-height: 0px;
   left: 0;
   right: 0;
   margin: auto;
