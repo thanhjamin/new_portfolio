@@ -39,6 +39,10 @@ $(document).ready(function()
 
 
   });
+
+
+(function pulse(){
+        $('.fa-chevron-down').delay(200).fadeOut(800).delay(50).fadeIn(800, pulse);
+    })();
+
  });
-
-

@@ -60,3 +60,11 @@ i {
   font-size: 50px;
   color: #0070FF;
 }
+
+.fa-chevron-down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
