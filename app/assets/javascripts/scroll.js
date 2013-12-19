@@ -40,9 +40,22 @@ $(document).ready(function()
 
   });
 
+var cnt=0, texts=[];
 
-(function pulse(){
-        $('.fa-chevron-down').delay(200).fadeOut(800).delay(50).fadeIn(800, pulse);
-    })();
+// save the texts in an array for re-use
+$(".textContent").each(function() {
+  texts[cnt++]=$(this).text();
+});
+function slide() {
+  if (cnt>=texts.length) cnt=0;
+  $('#textMessage').html(texts[cnt++]);
+  $('#textMessage')
+    .fadeIn('slow').animate({opacity: 1.0}, 2000).fadeOut('slow',
+     function() {
+       return slide()
+     }
+  );
+}
+slide()
 
  });

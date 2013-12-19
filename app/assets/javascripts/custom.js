@@ -10,3 +10,4 @@ $(document).ready(function() {
                         controller.addTween('#fade-in', TweenMax.from( $('#fade-in'), .5, {css:{opacity: 0}}));
                         controller.addTween('#move-it', TweenMax.from( $('#move-it'), .75, {css:{left: '1200px'}}));
                 });
+

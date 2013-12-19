@@ -61,10 +61,11 @@ i {
   color: #0070FF;
 }
 
-.fa-chevron-down {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+#textMessage{
+  font-size: 26px;
+}
+
+h1 {
+  font-family: 'Baskerville', 'Georiga';
+  font-size: 52px ;
 }
