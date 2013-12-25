@@ -12,7 +12,7 @@ section {
 
 #intro {
   display: table;
-  background: url(sunset_seattle.jpg) no-repeat center center fixed;
+  background: url(stairs.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,17 +56,40 @@ section {
   background-color: #e5e5e5;
 }
 
+.arrow {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0070FF;
+  opacity: 0.6;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  position: absolute;
+}
+
 i {
-  font-size: 50px;
-  color: #0070FF;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.fa {
+  line-height: inherit;
 }
 
 #textMessage{
-  font-size: 26px;
+  font-size: 36px;
+  color: #ffffff;
 }
 
-h1 {
-  font-family: 'Baskerville', 'Georiga';
-  font-size: 52px ;
+.name_title {
+  font-size: 72px ;
   letter-spacing: 2px;
+  color: #ffffff;
 }
+
+
