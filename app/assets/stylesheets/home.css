@@ -92,4 +92,38 @@ i {
   color: #ffffff;
 }
 
+.img-rounded {
+  width: 400px;
+  border-radius: 4px;
+}
+
+.text-center {
+  font-size: 48px;
+}
+
+.gallery {
+  width: 960px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resize {
+  width: 400px;
+  margin: 20px;
+}
+
+div {
+  display: block;
+}
+
+.gallery figure {
+  float: left;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  top: auto;
+  left: auto;
+  position: relative;
+}
+
 

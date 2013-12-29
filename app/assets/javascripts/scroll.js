@@ -23,22 +23,7 @@
     });
 })(jQuery);
 
-$(document).ready(function()
-{
-  $('#navbar-button').click(function() {
-    if($(this).css("margin-left") == "200px")
-    {
-        $('.navbar-fixed-left').animate({"margin-left": '-=200'});
-        $('#navbar-button').animate({"margin-left": '-=200'});
-    }
-    else
-    {
-        $('.navbar-fixed-left').animate({"margin-left": '+=200'});
-        $('#navbar-button').animate({"margin-left": '+=200'});
-    }
-
-
-  });
+$(document).ready(function() {
 
 var cnt=0, texts=[];
 
@@ -58,4 +43,5 @@ function slide() {
 }
 slide()
 
- });
+});
+
