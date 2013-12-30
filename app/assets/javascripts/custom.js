@@ -14,6 +14,17 @@ $('.gallery figure').css('position','relative').each(function() {
                         controller.addTween('.gallery', TweenMax.from( $(this), 1, {delay:Math.random()*.2,css:{left:Math.random()*200-100,top:Math.random()*200-100,opacity:0}, ease:Back.easeOut}));
                                 });
                 });
+$(function(){
+        // Check the initial Poistion of the Sticky Header
+        var stickyHeaderTop = $('nav').offset().top;
 
-
-
+        $(window).scroll(function(){
+                if( $(window).scrollTop() > stickyHeaderTop ) {
+                        $('nav').css({position: 'fixed', top: '0px'});
+                        $('.navbar-addon').css({position: 'fixed', top: '38px'});
+                } else {
+                        $('nav').css({position: 'relative'});
+                        $('.navbar-addon').css({position: 'relative', top: '-60px'});
+                }
+        });
+  });
