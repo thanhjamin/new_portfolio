@@ -5053,12 +5053,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+  background-color: #777777;
 }
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #222222;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .open > a,
