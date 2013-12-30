@@ -4843,6 +4843,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
+
+  .navbar-addon {
+    display: none;
+  }
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
