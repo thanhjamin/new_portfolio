@@ -12,7 +12,7 @@ section {
 
 #intro {
   display: table;
-  background: url(stairs.jpg) no-repeat center center fixed;
+  background: url(sunset_seattle.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +42,8 @@ section {
 }
 
 #portfolio {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
+  height: 125%;
 }
 
 #contact {
@@ -109,7 +110,7 @@ i {
 
 .resize {
   width: 400px;
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 div {
@@ -126,4 +127,27 @@ div {
   position: relative;
 }
 
+.reference {
+  background-color: #ffffff;
+  border: 1px solid #777777;
+  padding: 30px;
+}
 
+.reference_pictures {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  padding: 15px 15px 0px 15px;
+  text-align: center;
+}
+
+figure {
+  width: 400px;
+  background-color: #ffffff
+}
+
+strong {
+  color: #ff8f00;
+}

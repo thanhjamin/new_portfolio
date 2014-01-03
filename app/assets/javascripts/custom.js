@@ -20,11 +20,13 @@ $(function(){
 
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickyHeaderTop ) {
-                        $('nav').css({position: 'fixed', top: '0px'});
-                        $('.navbar-addon').css({position: 'fixed', top: '38px'});
+                        $('nav').css({position: 'fixed' });
+                        $('#nav_placeholder').css({display: 'block'});
+                        $('.navbar-addon').css({position: 'fixed', top: '35px'});
                 } else {
-                        $('nav').css({position: 'relative'});
-                        $('.navbar-addon').css({position: 'relative', top: '-60px'});
+                        $('nav').css({position: 'static' });
+                        $('.navbar-addon').css({position: 'relative', top: '-63px'});
+                        $('#nav_placeholder').css({display: 'none'});
                 }
         });
   });
