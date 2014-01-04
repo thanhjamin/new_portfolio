@@ -20,6 +20,7 @@ section {
   height: 100%;
   width: 100%;
   position: relative;
+  z-index: 9999;
 }
 
 .vert-text {
@@ -63,7 +64,6 @@ section {
   height: 40px;
   border-radius: 50%;
   background-color: #0070FF;
-  opacity: 0.6;
   margin: auto;
   vertical-align: middle;
   text-align: center;
@@ -153,3 +153,13 @@ strong {
 figcaption {
   text-align: center;
 }
+
+#dot_layer {
+  background-image: url(dot_pattern.png);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: -10;
+}
+
