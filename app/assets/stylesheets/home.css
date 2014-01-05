@@ -12,7 +12,7 @@ section {
 
 #intro {
   display: table;
-  background: url(sunset_seattle.jpg) no-repeat center center fixed;
+  background: url(stairs.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,12 +34,8 @@ section {
   padding: 50px 0;
 }
 
-#resume {
-  background-color: #000000;
-}
-
 #kindwords {
-  background-color: #444444;
+  background-color: #f4f4f4;
 }
 
 #portfolio {
@@ -166,4 +162,8 @@ figcaption {
 p {
   font-size: 22px;
   line-height:
+}
+
+.testimony {
+  width: 300px;
 }
