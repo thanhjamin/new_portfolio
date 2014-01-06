@@ -8,7 +8,7 @@ $(document).ready(function() {
                         controller.addTween('#scale-it', TweenMax.fromTo( $('#scale-it'), .25, {css:{opacity:0, fontSize:'20px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, fontSize:'120px'}, ease:Quad.easeInOut}));
                         controller.addTween('#smush-it', TweenMax.fromTo( $('#smush-it'), .25, {css:{opacity:0, 'letter-spacing':'30px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, 'letter-spacing':'-10px'}, ease:Quad.easeInOut}), 0, 100); // 100 px offset for better timing
                         controller.addTween('#fade-in', TweenMax.from( $('#fade-in'), .5, {css:{opacity: 0}}));
-                        controller.addTween('#move-it', TweenMax.from( $('#move-it'), .75, {css:{left: '1200px'}}));
+                        controller.addTween('.move-it', TweenMax.from( $('.move-it'), .75, {css:{top: '150px'}}));
 
 $('.gallery figure').css('position','relative').each(function() {
                         controller.addTween('.gallery', TweenMax.from( $(this), 1, {delay:Math.random()*.2,css:{left:Math.random()*200-100,top:Math.random()*200-100,opacity:0}, ease:Back.easeOut}));

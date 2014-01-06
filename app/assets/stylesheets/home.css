@@ -8,6 +8,7 @@ section {
   overflow: hidden;
   height: 100%;
   width: 100%;
+  padding-top: 60px;
 }
 
 #intro {
@@ -40,7 +41,7 @@ section {
 
 #portfolio {
   background-color: #f9f9f9;
-  height: 125%;
+  height: 150%;
 }
 
 #contact {
