@@ -44,7 +44,14 @@ section {
 }
 
 #contact {
-  background-color: #000000;
+  background: url(lake.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .divider {
@@ -72,6 +79,11 @@ section {
 i {
   font-size: 30px;
   color: #ffffff;
+}
+
+.social_media i {
+  margin: 0px 40px 0 40px;
+  font-size: 36px;
 }
 
 .fa {
@@ -122,13 +134,14 @@ div {
 
 .reference {
   background-color: #ffffff;
-  border: 1px solid #777777;
+  border: 1px solid #e0e0e0;
   padding: 30px;
 }
 
 .reference_pictures {
-  width: 200px;
-  height: 200px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 footer {
@@ -166,4 +179,16 @@ p {
 
 .testimony {
   width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    height: 200%;
+  }
+  #portfolio {
+    height: 250%;
+  }
+  .gallery figure{
+    float: none;
+  }
 }
