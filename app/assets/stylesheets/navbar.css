@@ -40,8 +40,8 @@
   width: 36px;
   height: 20px;
   background-color: #0070FF;
-  position: relative;
   z-index: 9999;
+  position: relative;
 }
 
 #hexagon:before {

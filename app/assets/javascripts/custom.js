@@ -22,10 +22,10 @@ $(function(){
                 if( $(window).scrollTop() > stickyHeaderTop ) {
                         $('nav').css({position: 'fixed' });
                         $('#nav_placeholder').css({display: 'block'});
-                        $('.navbar-addon').css({position: 'fixed', top: '35px'});
+                        $('.navbar-addon').css({position: 'fixed', top: '33px'});
                 } else {
                         $('nav').css({position: 'static' });
-                        $('.navbar-addon').css({position: 'relative', top: '-63px'});
+                        $('.navbar-addon').css({position: 'relative', top: '-62px'});
                         $('#nav_placeholder').css({display: 'none'});
                 }
         });
