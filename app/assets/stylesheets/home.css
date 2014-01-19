@@ -44,7 +44,8 @@ section {
 }
 
 #contact {
-  background: url(cafe.JPG) bottom no-repeat;
+  display: table;
+  background: url(lightsbw.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
