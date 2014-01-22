@@ -206,9 +206,34 @@ p {
     height: 200%;
   }
   #portfolio {
-    height: 250%;
+    height: 240%;
   }
-  .gallery figure{
+
+  .gallery {
+    padding-left: 0px;
+  }
+
+  .gallery figure {
     float: none;
+    width: 270px;
   }
+
+  #kindwords {
+    height: 370%;
+  }
+
+  #about {
+    height: 230%;
+  }
+
+  .resize {
+    width: 270px;
+  }
+
+  .testimony {
+    padding-left: 0px;
+    width: 200px;
+  }
+
+
 }
