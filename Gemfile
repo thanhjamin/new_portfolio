@@ -20,8 +20,6 @@ gem 'anjlab-bootstrap-rails', '~> 3.0.2.0', :require => 'bootstrap-rails'
 
 gem 'font-awesome-rails'
 
-gem 'rails_12factor'
-
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -34,6 +32,10 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :production do
+  gem 'rails_12factor'
 end
 
 # Use ActiveModel has_secure_password
