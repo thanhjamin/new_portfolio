@@ -8,6 +8,7 @@ section {
   overflow: hidden;
   height: 100%;
   width: 100%;
+  display: block;
   padding-top: 100px;
 }
 
@@ -201,12 +202,17 @@ p {
   padding-left: 50px;
 }
 
-@media screen and (max-width: 568px) {
-  section {
-    height: 200%;
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  #intro {
+    height: 33%;
   }
-  #portfolio {
-    height: 240%;
+
+  .container {
+    margin-left: 0px;
+  }
+
+  .reference {
+
   }
 
   .gallery {
@@ -216,14 +222,6 @@ p {
   .gallery figure {
     float: none;
     width: 270px;
-  }
-
-  #kindwords {
-    height: 370%;
-  }
-
-  #about {
-    height: 230%;
   }
 
   .resize {
