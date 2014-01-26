@@ -207,12 +207,22 @@ p {
     height: 33%;
   }
 
+  #kindwords {
+    height: 135%;
+  }
+
   .container {
     margin-left: 0px;
   }
 
   .reference {
+    margin-bottom: 20px;
+    width: 290px;
+  }
 
+  .reference p {
+    width: 250px;
+    padding-right: 25px;
   }
 
   .gallery {
@@ -229,9 +239,15 @@ p {
   }
 
   .testimony {
-    padding-left: 0px;
+    padding-left: 25px;
     width: 200px;
   }
 
+  .col-md-6 {
+    width: 320px;
+  }
 
+  .col-md-offset-3 {
+    margin-left: 0%;
+  }
 }
