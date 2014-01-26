@@ -207,8 +207,16 @@ p {
     height: 33%;
   }
 
+  #about {
+    height: 100%;
+  }
+
+  #portfolio {
+    height: 100%;
+  }
+
   #kindwords {
-    height: 135%;
+    height: 140%;
   }
 
   .container {
@@ -243,11 +251,31 @@ p {
     width: 200px;
   }
 
+  .col-md-8 {
+    width: 320px;
+  }
+
   .col-md-6 {
     width: 320px;
   }
 
+  .col-md-4 {
+    width: 290px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 15px;
+  }
+
   .col-md-offset-3 {
     margin-left: 0%;
+  }
+
+  .name_title {
+    font-size: 48px;
+    width: 320px;
+  }
+
+  #textMessage {
+    font-size: 28px;
+    width: 320px;
   }
 }
