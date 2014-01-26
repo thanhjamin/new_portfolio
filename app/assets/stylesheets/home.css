@@ -1,7 +1,10 @@
+html {
+  display: block;
+}
+
 html,
 body {
   height: 100%;
-  width: 100%;
 }
 
 section {
@@ -202,7 +205,11 @@ p {
   padding-left: 50px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+@media screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  body {
+    overflow-x: hidden;
+  }
+
   #intro {
     height: 33%;
   }
@@ -217,6 +224,10 @@ p {
 
   #kindwords {
     height: 140%;
+  }
+
+  #contact {
+    height: 40%;
   }
 
   .container {
@@ -239,7 +250,8 @@ p {
 
   .gallery figure {
     float: none;
-    width: 270px;
+    width: 280px;
+    margin-left: 10px;
   }
 
   .resize {
@@ -277,5 +289,9 @@ p {
   #textMessage {
     font-size: 28px;
     width: 320px;
+  }
+
+  .text-center {
+    margin-bottom: 20px
   }
 }
