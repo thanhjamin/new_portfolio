@@ -179,6 +179,11 @@ figure {
   background-color: #ffffff;
 }
 
+figure p {
+  font-size: 14px;
+  padding: 0px 15px 0px 15px;
+}
+
 strong {
   color: #ff8f00;
 }
