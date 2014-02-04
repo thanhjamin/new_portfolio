@@ -40,7 +40,7 @@ section {
 
 #kindwords {
   background-color: #f4f4f4;
-  height: 125%;
+  height: 135%;
 }
 
 #portfolio {
@@ -208,6 +208,10 @@ p {
 .testimony {
   width: 300px;
   padding-left: 50px;
+}
+
+.reference p {
+  text-align: center;
 }
 
 @media screen and (min-device-width : 320px) and (max-device-width : 568px) {
