@@ -9,10 +9,9 @@ body {
 
 section {
   overflow: hidden;
-  height: 100%;
-  width: 100%;
   display: block;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #intro {
@@ -214,26 +213,84 @@ p {
   text-align: center;
 }
 
-@media (max-width: 1160px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
+
   #about {
-    height: 175%;
+    height: 110%;
   }
+
+  #portfolio {
+    height: 150%;
+  }
+
+  #kindwords {
+    height: 135%;
+  }
+
+  #contact {
+    height: 100%;
+  }
+
+  .testimony {
+    padding-left: 50px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+   .testimony {
+    padding-left: 25px;
+    width: 200px;
+  }
+
+  #kindwords {
+    height: 145%;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 992px) {
+
+  #kindwords {
+    height: 325%;
+  }
+
+  .reference {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .testimony {
+    padding-left: 65px;
+  }
+}
+
+@media (max-width: 920px) {
 
   #portfolio {
     height: 250%;
   }
 
+  .gallery figure {
+    float: none;
+    width: 400px;
+    margin: auto;
+  }
+
+  .gallery {
+    padding-left: 0px;
+    width: 400px;
+  }
+
+  .reference {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
   #kindwords {
-    height: 250%;
-  }
-
-  #contact {
-    height: 150%;
-  }
-
-  .testimony {
-    padding-left: 25px;
-    width: 200px;
+    height: 325%;
   }
 }
 
