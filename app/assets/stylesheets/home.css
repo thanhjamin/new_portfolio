@@ -214,6 +214,29 @@ p {
   text-align: center;
 }
 
+@media (max-width: 1160px) {
+  #about {
+    height: 175%;
+  }
+
+  #portfolio {
+    height: 250%;
+  }
+
+  #kindwords {
+    height: 250%;
+  }
+
+  #contact {
+    height: 150%;
+  }
+
+  .testimony {
+    padding-left: 25px;
+    width: 200px;
+  }
+}
+
 @media screen and (min-device-width : 320px) and (max-device-width : 568px) {
   body {
     overflow-x: hidden;
@@ -228,7 +251,7 @@ p {
   }
 
   #kindwords {
-    height: 450%;
+    height: 490%;
   }
 
   .social_media{
