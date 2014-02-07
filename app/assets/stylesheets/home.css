@@ -300,15 +300,15 @@ p {
   }
 
   #about {
-    height: 300%
+    height: 270%
   }
 
   #portfolio {
-    height: 300%;
+    height: 280%;
   }
 
   #kindwords {
-    height: 490%;
+    height: 480%;
   }
 
   .social_media{
@@ -336,6 +336,7 @@ p {
   .gallery figure {
     float: none;
     width: 280px;
+    margin: 0px 100px 0px 20px;
   }
 
   .resize {
@@ -377,5 +378,20 @@ p {
 
   .text-center {
     margin-bottom: 20px
+  }
+}
+
+@media screen and (device-aspect-ratio: 2/3) {
+
+  #about {
+    height: 320%;
+  }
+
+  #portfolio {
+    height: 340%;
+  }
+
+  #kindwords {
+    height: 570%;
   }
 }
