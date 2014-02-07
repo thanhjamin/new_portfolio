@@ -4,7 +4,7 @@ window.mobilecheck = function() {
   return check;
 }
 
-if(window.mobilecheck()) {
+if(!window.mobilecheck()) {
 
 $(document).ready(function() {
                         var controller = $.superscrollorama();
