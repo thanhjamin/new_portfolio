@@ -384,7 +384,7 @@ p {
 @media screen and (device-aspect-ratio: 2/3) {
 
   #about {
-    height: 320%;
+    height: 340%;
   }
 
   #portfolio {
@@ -392,6 +392,6 @@ p {
   }
 
   #kindwords {
-    height: 570%;
+    height: 580%;
   }
 }
