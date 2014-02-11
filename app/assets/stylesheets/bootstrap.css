@@ -5029,9 +5029,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: none;
-  background-color: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .navbar-default .navbar-nav > .active > a,
