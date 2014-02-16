@@ -216,15 +216,15 @@ p {
 @media (min-width: 1200px) and (max-width: 1400px) {
 
   #about {
-    height: 110%;
+    height: 95%;
   }
 
   #portfolio {
-    height: 150%;
+    height: 140%;
   }
 
   #kindwords {
-    height: 135%;
+    height: 125%;
   }
 
   #contact {
